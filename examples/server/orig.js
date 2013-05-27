@@ -14,7 +14,11 @@ mqtt.createServer(function(client) {
     client.connack({returnCode: 0});
   });
 
+    client.on('connack', function(packet) {
+       console.log('@#$@#!$@!#$@#!$');
+    });
   client.on('subscribe', function(packet) {
+      console.log('subscribing');
     var granted = [];
 
     for (var i = 0; i < packet.subscriptions.length; i++) {
@@ -30,6 +34,7 @@ mqtt.createServer(function(client) {
   });
 
   client.on('publish', function(packet) {
+      console.log('publishing');
     for (var k in self.clients) {
       var c = self.clients[k]
         , publish = false;

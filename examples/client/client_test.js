@@ -17,6 +17,10 @@ mqtt.createClient(1883, 'localhost', function(err, client) {
   client.connect({keepalive: 1000});
 
   client.on('connack', function(packet) {
+      console.log("asdfadsfsdafasdfasd");
+      client.subscribe('test0',null,function(){
+         console.log('asdfadsfadsfds');
+      });
     setInterval(function() {
       client.publish({
         topic: 'test0'

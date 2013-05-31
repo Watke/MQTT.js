@@ -16,7 +16,8 @@ var assert = require("assert"),
         topic,
         message,
         messageLengthInByte,
-        look = new Look();
+        look = new Look(),
+        options = {};
     // create a server
     server = mqtt.createServer(function (client) {
         serverCB.call(this, client, look);
@@ -27,6 +28,9 @@ var assert = require("assert"),
     topic = 'test0';
     message = '12345';
     messageLengthInByte = Buffer.byteLength(message, 'utf8');
+    // config look
+    options.payload = messageLengthInByte;
+    look.config(options);
     client.conn.on('connack', function (packet) {
         look.record(packet);
     });

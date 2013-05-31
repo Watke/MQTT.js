@@ -3,20 +3,17 @@ var mqtt = require('../..')
   
 mqtt.createServer(function(client) {
   var self = this;
-
   if (!self.clients) self.clients = {};
 
   client.on('connect', function(packet) {
     self.clients[packet.client] = client;
     client.id = packet.clientId;
-    console.log("CONNECT: client id: " + client.id);
+//    console.log("CONNECT(%s): %j", client.id, packet);
     client.subscriptions = [];
     client.connack({returnCode: 0});
   });
 
-    client.on('connack', function(packet) {
-       console.log('@#$@#!$@!#$@#!$');
-    });
+
   client.on('subscribe', function(packet) {
     var granted = [];
 
@@ -35,7 +32,8 @@ mqtt.createServer(function(client) {
   });
 
   client.on('publish', function(packet) {
-    console.log("PUBLISH(%s): %j", client.id, packet);
+      // see util.format at http://nodejs.org/api/util.html#util_util_format_format
+//    console.log("PUBLISH(%s): %j", client.id, packet);
     for (var k in self.clients) {
       var c = self.clients[k]
         , publish = false;

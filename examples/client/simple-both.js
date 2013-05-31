@@ -1,9 +1,18 @@
-var mqtt = require('../..')
-  , client = mqtt.createClient();
+/*global Buffer, require*/
+var mqtt = require('../..'),
+    stringToSent,
+    stringByteLength,
+    client = mqtt.createClient();
 
 client.subscribe('test0');
-client.publish('test0', 'bin hier');
-client.on('message', function (topic, message) {
-  console.log(message);
+stringToSent = '123456';
+stringByteLength = Buffer.byteLength(stringToSent, 'utf8');
+client.publish('test0', stringToSent, function () {
+    "use strict";
+    console.log("message is going out at length: " + stringByteLength);
 });
-client.end();
+client.on('message', function (topic, message, published) {
+    "use strict";
+    console.log("The message is: " + message + " At length: " + Buffer.byteLength(message, 'uft8'));
+    console.log(published);
+});

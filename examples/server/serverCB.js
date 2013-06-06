@@ -16,7 +16,9 @@ var serverCB = function (client, look) {
         self.clients[packet.client] = client;
         client.id = packet.clientId;
 //        console.log("CONNECT(%s): %j", client.id, packet);
-        look.record(packet);
+        if (look) {
+            look.record(packet);
+        }
         client.subscriptions = [];
         client.connack({returnCode: 0});
     });
@@ -70,7 +72,6 @@ var serverCB = function (client, look) {
             }
         }
     });
-
     client.on('pingreq', function (packet) {
         console.log('PINGREQ(%s)', client.id);
         client.pingresp();

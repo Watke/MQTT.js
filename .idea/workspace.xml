@@ -2,28 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea27c18e-f114-4c90-8d3f-b45e79d8e469" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/measurement/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/stringgenerate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/stringgenerateTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/client.js" afterPath="$PROJECT_DIR$/lib/client.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/look.js" afterPath="$PROJECT_DIR$/lib/look.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/measurement.js" afterPath="$PROJECT_DIR$/test/measurement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/measurementTest.js" afterPath="$PROJECT_DIR$/test/measurementTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/server/serverCB.js" afterPath="$PROJECT_DIR$/examples/server/serverCB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MQTT.js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369999799498" ignored="false" />
+    <file path="/Dummy.txt" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370517796778" ignored="false" />
     <file path="/client_test.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369657464431" ignored="false" />
     <file path="/orig.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369913865397" ignored="false" />
     <file path="/simple-both.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369732762171" ignored="false" />
-    <file path="/client.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370000179112" ignored="false" />
+    <file path="/client.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370518592410" ignored="false" />
     <file path="/parse.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369925866130" ignored="false" />
     <file path="/connection.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369913681250" ignored="false" />
     <file path="/simple-publish.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369908323423" ignored="false" />
     <file path="/a.dummy" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369942665709" ignored="false" />
     <file path="/generate.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369914573921" ignored="false" />
-    <file path="/look.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370006964621" ignored="false" />
+    <file path="/look.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370449169401" ignored="false" />
     <file path="/package.json" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369921774956" ignored="false" />
     <file path="/measuredServer.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369922493386" ignored="false" />
-    <file path="/measurement.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370006812728" ignored="false" />
-    <file path="/serverCB.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1369924543656" ignored="false" />
+    <file path="/measurement.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370519722057" ignored="false" />
+    <file path="/serverCB.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370447340006" ignored="false" />
     <file path="/measurementTest.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370003778903" ignored="false" />
+    <file path="$PROJECT_DIR$/../Day-Books/public/stylesheets/style.css" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370417898858" ignored="false" />
+    <file path="/style.css" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414721952" ignored="false" />
+    <file path="$PROJECT_DIR$/../Day-Books/views/index.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414305574" ignored="false" />
+    <file path="/index.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414305574" ignored="false" />
+    <file path="/newEntry.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414593343" ignored="false" />
+    <file path="$PROJECT_DIR$/../Day-Books/public/templates/newEntry.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414593754" ignored="false" />
+    <file path="$PROJECT_DIR$/../Day-Books/public/templates/accountSheet.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414606108" ignored="false" />
+    <file path="/accountSheet.ejs" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370414605758" ignored="false" />
+    <file path="/server.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370447063490" ignored="false" />
+    <file path="$PROJECT_DIR$/../mutation-summary/examples/pagemirror_extension/README" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370505497797" ignored="false" />
+    <file path="/constant.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370515584024" ignored="false" />
+    <file path="/stringgenerate.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370519792762" ignored="false" />
+    <file path="/stringgenerateTest.js" changelist="ea27c18e-f114-4c90-8d3f-b45e79d8e469" time="1370520239847" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,33 +61,20 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="client.js" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/lib/client.js">
+            <file leaf-file-name="measurement.js" pinned="false" current="true" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test/measurement.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="312" column="24" selection-start="7318" selection-end="7318" vertical-scroll-proportion="-24.23077">
+                  <state line="11" column="36" selection-start="324" selection-end="324" vertical-scroll-proportion="0.094936706">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="measurement.js" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/test/measurement.js">
+            <file leaf-file-name="stringgenerateTest.js" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/test/stringgenerateTest.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="32" column="25" selection-start="729" selection-end="812" vertical-scroll-proportion="0.0">
-                    <folding>
-                      <element signature="n#!!doc" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="measurementTest.js" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/test/measurementTest.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="31" column="56" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.420434">
-                    <folding>
-                      <element signature="n#!!doc" expanded="true" />
-                    </folding>
+                  <state line="49" column="3" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -84,19 +90,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parse.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/parse.js">
+      <file leaf-file-name="look.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/look.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="24" selection-start="3493" selection-end="3493" vertical-scroll-proportion="0.0">
+            <state line="15" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-publish.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/client/simple-publish.js">
+      <file leaf-file-name="constant.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/constant.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+            <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#57#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stringgenerate.js" pinned="false" current="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/stringgenerate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="33" selection-start="863" selection-end="863" vertical-scroll-proportion="0.40816328">
+              <folding>
+                <element signature="e#0#57#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="measurementTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/measurementTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="58" selection-end="1449" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="protocol.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/protocol.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -104,66 +141,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-both.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/client/simple-both.js">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="50" column="34" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-subscribe.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/client/simple-subscribe.js">
+      <file leaf-file-name="parse.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/parse.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mqtt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mqtt.js">
+        <entry file="file://$PROJECT_DIR$/lib/mqtt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+            <state line="95" column="23" selection-start="2292" selection-end="2302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="look.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/look.js">
+      <file leaf-file-name="generate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="739" selection-end="739" vertical-scroll-proportion="0.42192048">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orig.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/server/orig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/connection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="797" selection-end="798" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+            <state line="132" column="41" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,22 +197,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/server/orig.js" />
-        <option value="$PROJECT_DIR$/examples/client/simple-publish.js" />
-        <option value="$PROJECT_DIR$/lib/generate.js" />
-        <option value="$PROJECT_DIR$/test/serverOrigTest.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/examples/server/measurementerver.js" />
         <option value="$PROJECT_DIR$/examples/server/measuredServer.js" />
         <option value="$PROJECT_DIR$/measurement.js" />
-        <option value="$PROJECT_DIR$/examples/server/serverCB.js" />
         <option value="$PROJECT_DIR$/lib/parse.js" />
-        <option value="$PROJECT_DIR$/lib/client.js" />
         <option value="$PROJECT_DIR$/lib/connection.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/test/measurement.js" />
         <option value="$PROJECT_DIR$/test/measurementTest.js" />
+        <option value="$PROJECT_DIR$/examples/server/serverCB.js" />
+        <option value="$PROJECT_DIR$/measurement/server.js" />
         <option value="$PROJECT_DIR$/lib/look.js" />
+        <option value="$PROJECT_DIR$/lib/constant.js" />
+        <option value="$PROJECT_DIR$/lib/client.js" />
+        <option value="$PROJECT_DIR$/test/measurement.js" />
+        <option value="$PROJECT_DIR$/test/stringgenerateTest.js" />
+        <option value="$PROJECT_DIR$/lib/stringgenerate.js" />
       </list>
     </option>
   </component>
@@ -280,6 +290,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MQTT.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MQTT.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MQTT.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MQTT.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -297,6 +335,10 @@
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -311,10 +353,6 @@
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -325,6 +363,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mutation-summary" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -390,7 +429,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27427962" sideWeight="0.75648147" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24546425" sideWeight="0.96574074" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -466,62 +505,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/mqtt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="798" selection-end="798" vertical-scroll-proportion="0.20029673">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="583" selection-end="583" vertical-scroll-proportion="0.74638844">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="39" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-6.5324926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="23" selection-end="23" vertical-scroll-proportion="0.014548982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/client/simple-both.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="24" selection-start="7318" selection-end="7318" vertical-scroll-proportion="-24.23077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/client/simple-subscribe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/server/orig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
@@ -529,60 +512,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/connection.js">
+    <entry file="file://$PROJECT_DIR$/measurement/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="797" selection-end="798" vertical-scroll-proportion="0.0">
+        <state line="4" column="3" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/server/serverCB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="36" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mqtt.js">
+    <entry file="file://$PROJECT_DIR$/lib/connection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+        <state line="23" column="19" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="34" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/parse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="24" selection-start="3493" selection-end="3493" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/protocol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mqtt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="23" selection-start="2292" selection-end="2302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="16" selection-start="4221" selection-end="4221" vertical-scroll-proportion="-0.25768536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="41" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/measurementTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="58" selection-end="1449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/look.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stringgenerate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="33" selection-start="863" selection-end="863" vertical-scroll-proportion="0.40816328">
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stringgenerateTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="3" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/measurement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="25" selection-start="729" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/client/simple-publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/measurementTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.420434">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/look.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="739" selection-end="739" vertical-scroll-proportion="0.42192048">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="11" column="36" selection-start="324" selection-end="324" vertical-scroll-proportion="0.094936706">
+          <folding />
         </state>
       </provider>
     </entry>

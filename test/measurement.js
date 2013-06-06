@@ -10,14 +10,16 @@ var assert = require("assert"),
     Look = require('../lib/look'),
     CONSTANT = require('../lib/constant'),
     StringGenerate = require('../lib/stringgenerate');
-
+/**
+ * run: node measurement.js [messageLength] [numberOfIteration]
+ */
 (function () {
     "use strict";
     var i,
         numberOfIteration,
         server,
         client = mqtt.createClient(), // create a client
-        topic = 'test0',
+        topic = 'test0', // topic size at 5
         message,
         messageLength,
         messageLengthInByte,
@@ -29,8 +31,11 @@ var assert = require("assert"),
         serverCB.call(this, client, look);
     });
     server.listen(1883);
+    // configure message
+    numberOfIteration = process.argv[3] ||
+        CONSTANT.DEFAULT_VALUE.PUBLISH_TIMES;
     // generate message
-    messageLength = process.argv[0] ||
+    messageLength = process.argv[2] ||
         CONSTANT.DEFAULT_VALUE.MESSAGE_LENGTH;
     message = aStringGenerate.
         init({messageLength: messageLength}).
@@ -39,9 +44,9 @@ var assert = require("assert"),
     messageLengthInByte = Buffer.byteLength(message, 'utf8');
     // config 'message payload' in look
     options.payload = messageLengthInByte;
+//    console.log('payload length: ' + messageLengthInByte);
+    options.numberOfIteration = numberOfIteration;
     look.config(options);
-    numberOfIteration = process.argv[1] ||
-        CONSTANT.DEFAULT_VALUE.PUBLISH_TIMES;
     for (i = 0; i < numberOfIteration; i += 1) {
         client.publish(topic, message);
     }
